@@ -1,0 +1,144 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: rgb(147, 99, 84);
+}
+
+
+
+.big-container{
+    background-color: beige;
+    height: auto;
+    width: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: 12px 18px #0f0101;
+}
+
+#Title{
+    font-family: 'Monaco', monospace;
+    font-size: 50px;
+    color: hsl(25, 78%, 54%);
+    margin-bottom: 40px;
+}
+
+
+
+
+
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    
+    width: 500px;
+    height: 500px;
+    border: 2px solid hsl(0, 0%, 0%);
+    margin-bottom: 30px;
+}
+.grid-container div {
+  box-sizing: border-box;
+  border: 0.5px solid black;
+}
+
+
+
+
+
+.button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #04AA6D;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0px 9px #999;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+
+.controls{
+    height: 150px;
+    width: 500px;
+    display: flex;
+   
+    
+    justify-content: space-around;
+    align-items: center;
+    
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+
+.slider-container {
+  width: 200px;
+}
+
+.slider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 15px;
+  border-radius: 5px;  
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%; 
+  background: #04AA6D;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #04AA6D;
+  cursor: pointer;
+}
+
+.color-picker{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 25px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 9px 8px 0px #000000 inset;
+    font-family: 'Space-Mono', monospace;
+    
+}
